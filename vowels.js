@@ -9,4 +9,16 @@ Vowels are the characters 'a', 'e', 'i', 'o', and'u'
 
 function vowels(str) {
 
+    const vowelArr = ['a', 'e', 'i', 'o', 'u'];
+    let counter = 0;
+
+    for (let char of str.toLowerCase()) {
+        if (vowelArr.includes(char)) {
+            counter += 1;
+        } else {
+
+        }
+
+    }
+    return counter;
 }
